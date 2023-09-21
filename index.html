@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dom.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo" >ESPORDIA.WIKI</div>
+            <ul class="nav-items">
+                <li class="nav-item"><a href=" ">Home</a></li>
+                <li class="nav-item"><a href=" ">News</a></li>
+                <li class="nav-item"><a href=" ">About</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">Manage Your Task</h2>
+            <button class="btn btn-headline">Learn More</button>
+        </div>
+
+    </header>
+    <section class="section-todo container">
+        <h2>Your Plan for Today ?</h2>
+        <form class="form-todo">
+            <input type="text" name=" " id=" " placeholder="Add Todo">
+            <input type="submit" value="add todo" class="btn">
+        </form>
+        <ul class="todo-list">
+            <li>
+                <span class="text">As You Wish</span>
+                <div class="todo-buttons">
+                    <button class="todo-bton done" >Done</button>
+                    <button  class="todo-bton remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="section-signup container">
+        <h2>Sign Up</h2>
+        <form class="signup-form container">
+           <div  class="form-gr">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username">
+           </div>
+           <div  class="form-gr">
+            <label for="password">password</label>
+            <input type="password" name="password" id="password">
+           </div>
+           <div  class="form-gr">
+            <label for="Confirm Password">Confirm Password</label>
+            <input type="password" name="Confirm Password" id="Confirm Password">
+           </div>
+           <div  class="form-gr">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone">
+           </div>
+           <div  class="form-phone
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+           </div>
+           <div  class="form-gr">
+            <label for="About Yoursself">About Yoursself</label>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+           </div>
+           <button type="submit" class="btn signup-btn">submit</button>
+        </form>
+    </section>
+</body>
+
+</html>
